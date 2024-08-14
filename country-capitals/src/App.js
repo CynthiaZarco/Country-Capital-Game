@@ -44,7 +44,9 @@ function App() {
       //INFO: We will keep one state to know countries answers
       mergeCountryAndCapitals(result);
       //setCountryData(result);
-    })
+    });
+    sessionStorage.removeItem('firstSelected');
+    sessionStorage.removeItem('CountClicks');
  },[]);
 
   return (
