@@ -22,8 +22,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   /* color: white; */
-}
 
+}
+.active{
+  background-color: blue;
+  color: #fff;
+}
+.correct{
+  background-color:#00FF00;
+}
 .App-link {
   color: #61dafb;
 }
